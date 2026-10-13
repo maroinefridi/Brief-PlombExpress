@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+}
+
+.header-logo{
+    display: flex;
+   font-size: 25px;
+   gap: 5px;
+   margin-top: 15px;
+   margin-left: 5px;
+}
+.image1{
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+}
+.header-logo-plomb{
+    color:#102A43;
+    font-weight: bold;
+}
+.header-logo-express{
+    color:#0866C2;
+    font-weight: bold;
+}
+.PLomb-Express{
+    display:flex;
+}
+.menu{
+    margin-top: 20px;
+}
+#menu{
+    font-size: 15px;
+}
+.header-button{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header-text-button{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF6418;
+    color:aliceblue;
+    font-style:italic;
+}
+
+nav{
+    display:flex;
+    justify-content: end;
+}
+
