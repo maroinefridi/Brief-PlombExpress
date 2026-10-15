@@ -2,7 +2,7 @@
     margin: 0px;
 }
 
-body{
+body {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -89,11 +89,7 @@ nav {
         font-size: 20px;
     }
 
-    .hero-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 10px
-    }
+
 
     .hero-button-1 {
         height: 40px;
@@ -111,23 +107,14 @@ nav {
         border-radius: 10px;
     }
 
-    .hero-part-final {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-    }
+    
 
     .image2 {
         width: 350px;
+        height: 400px;
     }
 
-    #hero-part-left {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .hero-part-final>div {
+    .hero-part-final > div {
         display: flex;
         gap: 15px;
     }
@@ -165,12 +152,7 @@ nav {
         font-size: 40px;
     }
 
-    .nos-main {
-        display: flex;
-        gap: 10vw;
-    }
-
-    div {
+    .nos-main > div {
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -190,8 +172,9 @@ nav {
         color: #486176;
         font-size: 20px;
     }
-     div > img{
-        width:350px;
+
+    div>img {
+        width: 350px;
     }
 
     button {
@@ -204,46 +187,63 @@ nav {
     }
 
 }
-#pour{
-     display: flex;
+ .image6{
+         width: 350px;
+        height: 400px;
+    
+    }
+#pour {
+    display: flex;
     flex-direction: column;
     gap: 40px;
-    .pour-header{
+
+    .pour-header {
         margin-top: 30px;
     }
-     div{
+    .pour-header{
+         display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pour-bottom > div {
         display: flex;
-        flex-direction:column;
-        gap:20px;
+        flex-direction: column;
+        gap: 20px;
     }
-    .pour-header-p1{
-        color:#0866C2;
-        font-size:18px
+
+    .pour-header-p1 {
+        color: #0866C2;
+        font-size: 18px
     }
-    .pour-header > strong{
-         color: #102A43;
-        font-size:35px;
+
+    .pour-header>strong {
+        color: #102A43;
+        font-size: 35px;
     }
-    i{
+
+    i {
         color: #0866C2;
         font-size: 20px;
     }
-    span{
-        display:flex;
+
+    span {
+        display: flex;
         align-items: center;
         gap: 15px;
     }
-    .pour-bottom > span > strong{
+
+    .pour-bottom>span>strong {
         color: #102A43;
-        font-size:25px;
+        font-size: 25px;
     }
-    p{
+
+    p {
         color: #486176;
         font-size: 20px;
     }
 }
 
-footer{
+footer {
     margin-top: 30px;
     background-color: #102A43;
     display: flex;
@@ -251,80 +251,186 @@ footer{
     align-items: center;
     gap: 30px;
     border-radius: 5px;
-    #services{
+
+    #services {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap:20px;
+        gap: 20px;
     }
-    #services > div{
-        display:flex;
+
+    #services>div {
+        display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    span{
-        display:flex;
-        gap:20px;
-    }
-    i{
-        color:#FFFFFF;
-        font-size: 20px;
-        
-    }
-    strong{
-        color:#FFFFFF;
-    }
-    p{
-        color:#C2D0DD;
-    }
-    .final{
+
+    span {
         display: flex;
-        flex-direction:column;
-    
-        gap:20px;
+        gap: 20px;
     }
-     .final > span{
-        color:#C2D0DD;
+
+    i {
+        color: #FFFFFF;
+        font-size: 20px;
 
     }
-    .image7{
+
+    strong {
+        color: #FFFFFF;
+    }
+
+    p {
+        color: #C2D0DD;
+    }
+
+    .final {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .final>span {
+        color: #C2D0DD;
+
+    }
+
+    .image7 {
         height: 20px;
         width: 20px;
     }
-    .footer-logo{   
+
+    .footer-logo {
         display: flex;
         margin-top: 20px;
         font-size: 20px;
         gap: 5px;
     }
+
     ul {
         display: flex;
-        flex-direction:column;
-        gap:10px;
+        flex-direction: column;
+        gap: 10px;
         list-style: none;
-        
+
     }
-    a{
+
+    a {
         text-decoration: none;
-        color:#C2D0DD;
+        color: #C2D0DD;
+    }
+    .nos-main {
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
     }
 }
 
-@media screen and (max-width:450px){
-    nav{
-        display:none;
-    }
-}
-@media screen and (min-width:420px){
-    #hamburger{
+@media screen and (max-width:1096px) {
+    nav {
         display: none;
     }
-    header{
-        display:flex;
+     #hero-part-left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+        .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .hero-part-final {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width:1096px) {
+    #hamburger {
+        display: none;
+    }
+
+    header {
+        display: flex;
         justify-content: space-between;
         align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20%;
+            align-items: center;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #102A43;
+        }
+
+        .a1 {
+            text-decoration: underline;
+        }
+
+        button {
+            margin-bottom: 40px;
+        }
     }
-    #hero-part-left{
+
+    #hero {
         display: flex;
     }
+
+    #hero-part-left {
+        display: flex;
+        justify-content: center;
+        gap: 15%;
+    
+    }   
+    .image2{
+        width:50%;
+        height: auto;
+    }
+    .hero-part1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-part-final{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero-buttons{
+        display: flex;
+        gap:10px;
+    }
+    .hero-button-1 {
+        width: 50%;
+    }
+
+    .hero-button-2 {
+        width: 50%;
+    }
+   .nos-main{
+    display:flex;
+    
+   }
+   .pour-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   }
+   .image6{
+    order:1;
+   }
+   .pour-header{
+    order:2;
+   }
+   .pour-part-right{
+    order:3;
+   }
 }
